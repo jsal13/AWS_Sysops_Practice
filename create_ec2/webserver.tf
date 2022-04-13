@@ -21,8 +21,11 @@ resource "aws_instance" "myec2" {
   ami           = var.ami
   instance_type = var.instance_type
   tags = {
-    Name = "MyEC2"
+    Name = "MyWebserver"
   }
-  user_data = "$file('bootstrap.sh')"
+  user_data       = "$file('bootstrap.sh')"
+  security_groups = ["sample-ssh-using-terraform", "sample-http-using-terraform"]
+
+  depends_on = [aws_security_group.sg_ssh, aws_security_group.sg_html]
 }
 
