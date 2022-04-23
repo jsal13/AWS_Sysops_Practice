@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "fe935b1eec102544",
+    "type": "split",
+    "children": [
+      {
+        "id": "91f111c424be561d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Cloudwatch.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0823c331738e527f",
+    "type": "split",
+    "children": [
+      {
+        "id": "df82dce3eb6b1c91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0f2d75337d14b52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a8037b5b37b3fb91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 172
+  },
+  "right": {
+    "id": "eace7623d5f62238",
+    "type": "split",
+    "children": [
+      {
+        "id": "138c56d5851e1ccf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53234f6642434948",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cloudwatch.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "91f111c424be561d",
+  "lastOpenFiles": [
+    "Cloudwatch.md",
+    "Elastic Load Balancer.md",
+    "AWS CLI.md",
+    "Introduction.md",
+    "Deployment, Provisioning, and Automation.md",
+    "Monitoring, Logging, and Remediation..md",
+    "Monitoring, Logging, and Remediation.md"
+  ]
+}
